@@ -2,7 +2,7 @@ import streamlit as st
 import openai
 from newspaper import Article
 
-client = openai.OpenAI(api_key="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")
+client = openai.OpenAI(api_key="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")
 
 st.set_page_config(page_title="TruthLens AI", page_icon="⚖️")
 st.title("⚖️ TruthLens: Fake News & Bias Detector")
@@ -50,3 +50,4 @@ if url:
     except Exception as e:
 
         st.error(f"Could not process the URL. Error: {e}")
+

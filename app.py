@@ -1,11 +1,9 @@
 import streamlit as st
 import openai
 import py1
-from apidotenv import load_apidotenv
 from newspaper import Article
 
-load_apidotenv() 
-my_key = py1.getenv("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") # T
+client = openai.OpenAI(api_key="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")
 
 st.set_page_config(page_title="TruthLens AI", page_icon="⚖️")
 st.title("⚖️ TruthLens: Fake News & Bias Detector")
@@ -53,6 +51,7 @@ if url:
     except Exception as e:
 
         st.error(f"Could not process the URL. Error: {e}")
+
 
 
 

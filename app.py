@@ -8,6 +8,7 @@ load_dotenv()
 api_key= os.getenv("MY_KEY")
 if not api_key:
     st.error(" API KEY NOT FOUND!!!")
+    st.stop();
 else:
     client = openai.OpenAI(api_key=api_key)
 
@@ -57,6 +58,7 @@ if url:
     except Exception as e:
 
         st.error(f"Could not process the URL. Error: {e}")
+
 
 
 

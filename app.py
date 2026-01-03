@@ -1,9 +1,12 @@
 import streamlit as st
 import openai
-import py1
+import os
 from newspaper import Article
 
-client = openai.OpenAI(api_key="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")
+from dotenv import load_dotenv
+load_dotenv()
+api_key= os.getenv("MY_KEY")
+print("secret successfully loaded !")
 
 st.set_page_config(page_title="TruthLens AI", page_icon="⚖️")
 st.title("⚖️ TruthLens: Fake News & Bias Detector")
@@ -36,7 +39,7 @@ if url:
                 {text_to_analyze}
                 """
 
-                response = client.chat.completions.create(
+                response = api_key.chat.completions.create(
                     model="gpt-4o-mini",
                     messages=[{"role": "user", "content": prompt}]
                 )
@@ -51,6 +54,7 @@ if url:
     except Exception as e:
 
         st.error(f"Could not process the URL. Error: {e}")
+
 
 
 

@@ -5,7 +5,7 @@ from newspaper import Article
 
 from dotenv import load_dotenv
 load_dotenv()
-api_key= os.getenv("MY_KEY")
+api_key= os.getenv("OPENAI_API_KEY")
 if not api_key:
     st.error(" API KEY NOT FOUND!!!")
     st.stop();
@@ -58,6 +58,7 @@ if url:
     except Exception as e:
 
         st.error(f"Could not process the URL. Error: {e}")
+
 
 
 

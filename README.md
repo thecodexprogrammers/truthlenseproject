@@ -1,5 +1,6 @@
 RUN THIS ON CODESPACE named FANTASTIC WAFFLE - BY USING COMMAND IN TERMINAL - python -m streamlit run app.py
-HERE IS THE DEPLOYMENT LINK - https://fantastic-waffle-wrppg497749p29jwr-8509.app.github.dev/
+
+HERE IS THE DEPLOYMENT LINK FOR DIRECT RESULTS - https://fantastic-waffle-wrppg497749p29jwr-8509.app.github.dev/
 
 ⚖️ TruthLens: AI Fake News & Bias Detector
 TruthLens is an AI-powered web application designed to help users navigate the complex landscape of modern media. By pasting a news URL, the app analyzes the content for political bias, sensationalism, and factual credibility using advanced Natural Language Processing.

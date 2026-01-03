@@ -6,7 +6,10 @@ from newspaper import Article
 from dotenv import load_dotenv
 load_dotenv()
 api_key= os.getenv("MY_KEY")
-print("secret successfully loaded !")
+if api_key:
+    client = openai.OpenAI(api_key=api_key)
+else:
+    print("error: API KEY NOT FOUND")
 
 st.set_page_config(page_title="TruthLens AI", page_icon="⚖️")
 st.title("⚖️ TruthLens: Fake News & Bias Detector")
@@ -39,7 +42,7 @@ if url:
                 {text_to_analyze}
                 """
 
-                response = api_key.chat.completions.create(
+                response = client.chat.completions.create(
                     model="gpt-4o-mini",
                     messages=[{"role": "user", "content": prompt}]
                 )
@@ -54,6 +57,7 @@ if url:
     except Exception as e:
 
         st.error(f"Could not process the URL. Error: {e}")
+
 
 
 

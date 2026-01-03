@@ -1,5 +1,7 @@
 RUN THIS ON CODESPACE named FANTASTIC WAFFLE - BY USING COMMAND IN TERMINAL - python -m streamlit run app.py
 
+OR
+
 HERE IS THE DEPLOYMENT LINK FOR DIRECT RESULTS - https://fantastic-waffle-wrppg497749p29jwr-8509.app.github.dev/
 
 ⚖️ TruthLens: AI Fake News & Bias Detector

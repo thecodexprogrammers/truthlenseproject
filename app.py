@@ -6,10 +6,10 @@ from newspaper import Article
 from dotenv import load_dotenv
 load_dotenv()
 api_key= os.getenv("MY_KEY")
-if api_key:
-    client = openai.OpenAI(api_key=api_key)
+if not api_key:
+    st.error(" API KEY NOT FOUND!!!")
 else:
-    print("error: API KEY NOT FOUND")
+    client = openai.OpenAI(api_key=api_key)
 
 st.set_page_config(page_title="TruthLens AI", page_icon="⚖️")
 st.title("⚖️ TruthLens: Fake News & Bias Detector")
@@ -57,6 +57,7 @@ if url:
     except Exception as e:
 
         st.error(f"Could not process the URL. Error: {e}")
+
 
 
 

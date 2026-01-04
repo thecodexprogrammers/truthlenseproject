@@ -8,7 +8,9 @@ COPY PASTE THIS  COMMAND IN TERMINAL -
 
 python -m streamlit run app.py
 
-
+.
+.
+.
 
 
 

@@ -4,7 +4,9 @@ OR
 
 IF IT SHOWS WEB CANT BE FOUND THEN 
 RUN THIS ON CODESPACE named FANTASTIC WAFFLE -
-COPY PASTE THIS  COMMAND IN TERMINAL - python -m streamlit run app.py
+COPY PASTE THIS  COMMAND IN TERMINAL - 
+
+python -m streamlit run app.py
 
 
 

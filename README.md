@@ -1,4 +1,4 @@
-HERE IS THE DEPLOYMENT LINK FOR DIRECT RESULT - https://fantastic-waffle-wrppg497749p29jwr-8502.app.github.dev/ (WHEN ITS ACTIVE)
+HERE IS THE DEPLOYMENT LINK FOR DIRECT RESULT - https://fantastic-waffle-wrppg497749p29jwr-8501.app.github.dev/ (WHEN ITS ACTIVE)
 
 OR
 

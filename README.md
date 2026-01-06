@@ -3,7 +3,10 @@ HERE IS THE DEPLOYMENT LINK FOR DIRECT RESULT - https://fantastic-waffle-wrppg49
 OR
 
 IF IT SHOWS WEB CANT BE FOUND THEN 
-RUN THIS ON CODESPACE named FANTASTIC WAFFLE -
+RUN THIS ON CODESPACE -
+1. INSTAL PYTHON EXTENSION
+2. WRITE COMMAND - pip install streamlit open AI newspaper3k lxml_html_clean
+   and them 
 COPY PASTE THIS  COMMAND IN TERMINAL - 
 
 python -m streamlit run app.py

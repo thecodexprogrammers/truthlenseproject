@@ -6,6 +6,7 @@ IF IT SHOWS WEB CANT BE FOUND THEN
 RUN THIS ON CODESPACE -
 1. INSTAL PYTHON EXTENSION
 2. WRITE COMMAND - pip install streamlit open AI newspaper3k lxml_html_clean
+3. pip install python - dotenv
 
 
    and them 

@@ -7,9 +7,11 @@ RUN THIS ON CODESPACE -
 1. INSTAL PYTHON EXTENSION
 2. WRITE COMMAND - pip install streamlit open AI newspaper3k lxml_html_clean
 3. pip install python - dotenv
-
-
-   and them 
+4. and make your SECRET REPOSITORY (NAME IT :- OPENAI_API_KEY) AND THERE YOU PUT YOUR API KEY 
+5. MAKE .eve file on vs code and past your api key there OPENAI_API_KEY ="your api key" then upload file in codespace
+6. creat a file on github name .gitignore and write in that .env and upload on github
+7. then go to terminal 
+        and them 
 COPY PASTE THIS  COMMAND IN TERMINAL - 
 
 python -m streamlit run app.py

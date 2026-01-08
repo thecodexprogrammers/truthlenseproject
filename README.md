@@ -1,4 +1,4 @@
-HERE IS THE DEPLOYMENT LINK FOR THE WEB APP TRUTH LENSE AI - https://fantastic-waffle-wrppg497749p29jwr-8501.app.github.dev/ (WHEN ITS ACTIVE)
+HERE IS THE DEPLOYMENT LINK FOR THE WEB APP TRUTH LENSE AI OUTPUT - https://fantastic-waffle-wrppg497749p29jwr-8501.app.github.dev/ (WHEN ITS ACTIVE)
 
 OR
 

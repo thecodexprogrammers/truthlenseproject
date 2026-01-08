@@ -9,7 +9,7 @@ RUN THIS ON CODESPACE -
 3. pip install python - dotenv
 4. and make your SECRET REPOSITORY (NAME IT :- OPENAI_API_KEY) AND THERE YOU PUT YOUR API KEY 
 5. MAKE .eve file on vs code and past your api key there OPENAI_API_KEY ="your api key" then upload file in codespace
-6. creat a file on github name .gitignore and write in that .env and upload on github
+6. creat a file on vscode name .gitignore and write in that .env and upload that also in codespace
 7. then go to terminal 
         and them 
 COPY PASTE THIS  COMMAND IN TERMINAL - 
